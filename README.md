@@ -23,12 +23,31 @@ This repository contains a simple CRUD (Create, Read, Update, Delete) applicatio
    cd flask-crud-mysql-example
    ```
 
-   2. Create a virtual environment:
-      ```bash
-      python -m venv venv
-      venv/bin/activate
-      ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   venv/bin/activate
+   ```
 
-  3. Install the required packages:
-     ```bash
-     
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+#Run the application:
+   ```bash
+   python dbconnect.py
+
+   python app.py
+   ```
+
+##Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+##Acknowledgements
+- **Flask** - A micro web framework for Python.
+- **Flask-MySQLdb** - MySQL database connection for Flask.
